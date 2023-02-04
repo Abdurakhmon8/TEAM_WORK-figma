@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto1';
+    src: url('../Fonts/Roboto-Bold.ttf') format('truetype');
+}
+.section-muhammadimron{
+    width: 100%;
+    padding: 150px 0;
+    background-color: #FAFAFA;
+    .cont{
+        .rov{
+            .coll{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                .col6p{
+                    font-family: 'Roboto';
+                    font-size: 44px;
+                    line-height: 54px;
+                    color: #121212;
+
+                }
+                .col6p1{
+                    width: 60%;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 30px;     
+                    color: #656565;
+                    span{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #656565;
+                    }
+                }
+            }
+            .coll1{
+                .col6btn1{
+                    padding: 25px 35px;
+                    background: #FF5634;
+                    border: 1px solid #FF5634;
+                    border-radius: 16px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+
+                }
+                .col6btn2{
+                    padding: 25px 35px;
+                    background: #FFFFFF;
+                    border: 1px solid #EDEDED;
+                    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+                    border-radius: 16px;
+                    font-family: 'Roboto';
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #121212;
+                }
+            }
+        }
+        .row1_item{
+            padding: 41px 30px;
+            background-color: #FFFFFF;
+            border: 1px solid #EDEDED;
+            box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+            border-radius: 24px;
+            aside{
+                display: flex;
+                justify-content: space-between;
+                article{
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    span{
+                        .spp1{
+                            margin: 0;
+                            font-family: 'Roboto';
+                            font-size: 18px;
+                            color: #121212;
+                        }
+                        .spp2{
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #FF5634;
+                        }
+                    }
+                }
+            }
+            .pcol{
+                width: 70%;
+                font-family: 'Roboto';
+                font-size: 18px;
+                line-height: 30px;
+                color: #656565;
+            }
+        }
+    }
+}
+.section-muhammadimron-1{
+    background: #121212;
+    .cont-fld{
+        .rov{
+            .col6_1{
+                padding: 185px 45px 160px 109px;
+                .col6-p{
+                    width: 85%;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 56px;
+                    line-height: 66px;
+                    color: #FFFFFF;
+                }
+                .col6-p2{
+                    width: 85%;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 30px;      
+                    color: #FFFFFF;
+                }
+                .col6_1btn{
+                    padding: 25px 35px;
+                    background: #FF5634;
+                    border: 1px solid #FF5634;
+                    border-radius: 16px;
+                    font-family: 'Roboto1';
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+            .col6_2{
+                position: relative;
+                img{
+                    position: absolute;
+                    left: 0;
+                    top: -91px;
+                    width: 672px;
+                }
+            }
+        }
+    }
+}
+.section-muhammadimron_2{
+    width: 100%;
+    .cont3{
+        .rov3{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .col3{
+                padding:80px 100px;
+                .col3p{
+                    width: 90%;
+                    font-family: 'Roboto';
+                    font-size: 12px;
+                    line-height: 30px;
+                    color: #656565;
+                }
+            }
+            .col3_4{
+                width: 100%;
+                padding: 0;
+                display: flex;
+                gap: 20px;
+                .col3btn1{
+                    font-family: 'Roboto1';
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;     
+                    color: #FFFFFF;
+                    padding: 24px 30px;
+                    background: #FF5634;
+                    border: 1px solid #FF5634;
+                    border-radius: 14px;
+                }
+            }
+        }
+    }
+}
+.hrconteiner{
+    hr{
+        border: 1px solid #CACACA;
+    }
+}
+footer{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .footer-container{
+        .footer-row{
+            .footer-col-6{
+                display: flex;
+                gap: 100px;
+                .menu-box{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    p{
+                        font-family: 'Roboto';
+                        font-size: 20px;
+                        line-height: 22px;    
+                        color: #121212;
+                    }
+                    .ul_footer{
+                        display: flex;
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                        li{
+                            list-style: none;
+                            a{
+                                font-family: 'Roboto';
+                                font-size: 18px;
+                                line-height: 20px;                  
+                                color: #656565;
+                                text-decoration: none;
+                                &:hover{
+                                    color: #0004ffdd;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer-col-6_ul{
+                    p{
+                        font-family: 'Roboto';
+                        font-size: 20px;
+                        line-height: 22px;             
+                        color: #121212;
+                    }
+                    li{
+                        list-style: none;
+                        a{
+                            font-family: 'Roboto';
+                            font-size: 18px;
+                            line-height: 20px;                  
+                            color: #656565;
+                            text-decoration: none;
+                            &:hover{
+                                color: #0004ffdd;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-col-6_2{
+                p{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 22px;              
+                    color: #121212;
+                }
+                .wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    div{
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                    span{
+                        width: 250px;
+                        gap: 12px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 15px;
+                        img{
+                            width: 78px;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .section-muhammadimron{
+        width: 100%;
+        padding: 100px 0;
+        background-color: #FAFAFA;
+        .cont{
+            .rov{
+                .coll{
+                    .col6p{
+                        font-size: 15px;
+                        line-height: 6px;
+                    }
+                    .col6p1{
+                        font-size: 6px;
+                        line-height: 15px;     
+                        span{
+                            font-size: 9px;
+                            line-height: 15px;
+                        }
+                    }
+                }
+                .coll1{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 8px;
+                    .col6btn1{
+                        padding: 15px 25px;
+                        border-radius: 8px;
+                        font-size: 9px;
+                        line-height: 10px;
+                    }
+                    .col6btn2{
+                        padding: 15px 25px;
+                        border-radius: 8px;
+                        font-size: 9px;
+                        line-height: 10px;
+                    }
+                }
+            }
+        }
+    }  
+.section-muhammadimron-1{
+    width: 100%;
+    background: #121212;
+    .cont-fld{
+        .rov{
+            .col6_1{
+                padding: 10px;
+                .col6-p{
+                    width: 100%;
+                    font-size: 28px;
+                    line-height: 33px;
+                }
+                .col6-p2{
+                    font-size: 6px;
+                    line-height: 15px;
+                }
+                .col6_1btn{
+                    padding: 13px 17px;
+                    border-radius: 8px;
+                    font-size: 9px;
+                    line-height: 10px;
+                }
+            }
+            .col6_2{
+                position: relative;
+                img{
+                    top: -50px;
+                    right: 15px;
+                    position: absolute;
+                    width: 151px;
+                }
+            }
+        }
+    }
+    }
+    .section-muhammadimron_2{
+        width: 100%;
+        .cont3{
+            .rov3{
+                margin: 0;
+                .col3{
+                    padding: 40px 50px;
+                    img{
+                        width: 60px;
+                    }
+                    .col3p{
+                        font-size: 6px;
+                        line-height: 15px;
+                    }
+                }
+                .col3_4{
+                    gap: 10px;
+                    .col3btn1{
+                        font-size: 8px;
+                        line-height: 11px;
+                        padding: 12px 15px;
+                        border-radius: 7px;
+                    }
+                }
+            }
+        }
+    }
+    
+footer{
+    padding: 50px;
+    .footer-container{
+        .footer-row{
+            .footer-col-6{
+                gap: 50px;
+                .menu-box{
+                    p{
+                        font-size: 10px;
+                        line-height: 11px;  
+                    }
+                    .ul_footer{
+                    ul{
+                        li{
+                            a{
+                                font-size: 9px;
+                                line-height: 10px;    
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer-col-6_ul{
+                    p{
+                        font-size: 10px;
+                        line-height: 11px;     
+                    }
+                    li{
+                        a{
+                            font-family: 'Roboto';
+                            font-size: 9px;
+                            line-height: 10px;     
+                        }
+                    }
+                }
+            }
+            .footer-col-6_2{
+                p{
+                    font-size: 10px;
+                    line-height: 11px;    
+                }
+                .wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    div{
+                        display: flex;
+                        gap: 50px;
+                        align-items: center;
+                    span{
+                        width: 150px;
+                        gap: 6px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 8px;
+                        img{
+                            width: 35px;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+@media (min-width: 576.1px) and (max-width: 768px) {
+    .section-muhammadimron{
+        width: 100%;
+        padding: 120px 0;
+        background-color: #FAFAFA;
+        .cont{
+            .rov{
+                .coll{
+                    .col6p{
+                        font-size: 18px;
+                        line-height: 8px;
+                    }
+                    .col6p1{
+                        font-size: 8px;
+                        line-height: 17px;     
+                        span{
+                            font-size: 11px;
+                            line-height: 17px;
+                        }
+                    }
+                }
+                .coll1{
+                    display: flex;
+                    gap: 10px;
+                    .col6btn1{
+                        padding: 17px 28px;
+                        border-radius: 10px;
+                        font-size: 11px;
+                        line-height: 12px;
+                    }
+                    .col6btn2{
+                        padding: 17px 27px;
+                        border-radius: 10px;
+                        font-size: 11px;
+                        line-height: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .section-muhammadimron-1{
+        background: #121212;
+        .cont-fld{
+            .rov{
+                .col6_1{
+                    padding: 54px 24px 82px 56px;
+                    .col6-p{
+                        width: 85%;
+                        font-size: 30px;
+                        line-height: 35px;
+                    }
+                    .col6-p2{
+                        font-size: 8px;
+                        line-height: 17px;
+                    }
+                    .col6_1btn{
+                        padding: 15px 19px;
+                        border-radius: 10px;
+                        font-size: 11px;
+                        line-height: 12px;
+                    }
+                }
+                .col6_2{
+                    position: relative;
+                    img{
+                        position: absolute;
+                        left: -65px;
+                        top: -45px;
+                        width: 351px;
+                    }
+                }
+            }
+        }
+    }
+    .section-muhammadimron_2{
+        width: 100%;
+        .cont3{
+            .rov3{
+                margin: 0;
+                .col3{
+                    padding: 50px 60px;
+                    img{
+                        width: 80px;
+                    }
+                    .col3p{
+                        font-size: 8px;
+                        line-height: 17px;
+                    }
+                }
+                .col3_4{
+                    gap: 12px;
+                    .col3btn1{
+                        font-size: 8px;
+                        line-height: 13px;
+                        padding: 14px 17px;
+                        border-radius: 9px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768.1px) and (max-width: 992px) {
+    .section-muhammadimron{
+        width: 100%;
+        padding: 130px 0;
+        background-color: #FAFAFA;
+        .cont{
+            .rov{
+                .coll{
+                    .col6p{
+                        font-size: 20px;
+                        line-height: 10px;
+                    }
+                    .col6p1{
+                        font-size: 10px;
+                        line-height: 19px;     
+                        span{
+                            font-size: 13px;
+                            line-height: 19px;
+                        }
+                    }
+                }
+                .coll1{
+                    display: flex;
+                    gap: 12px;
+                    .col6btn1{
+                        padding: 19px 30px;
+                        border-radius: 12px;
+                        font-size: 13px;
+                        line-height: 14px;
+                    }
+                    .col6btn2{
+                        padding: 19px 29px;
+                        border-radius: 12px;
+                        font-size: 13px;
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .section-muhammadimron-1{
+        background: #121212;
+        .cont-fld{
+            .rov{
+                .col6_1{
+                    padding: 60px 35px 100px 76px;
+                    .col6-p{
+                        width: 100%;
+                        font-size: 32px;
+                        line-height: 37px;
+                    }
+                    .col6-p2{
+                        font-size: 10px;
+                        line-height: 19px;
+                    }
+                    .col6_1btn{
+                        padding: 17px 21px;
+                        border-radius: 12px;
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                }
+                .col6_2{
+                    position: relative;
+                    img{
+                        position: absolute;
+                        left: -65px;
+                        top: -45px;
+                        width: 381px;
+                    }
+                }
+            }
+        }
+        }
+        .section-muhammadimron_2{
+            width: 100%;
+            .cont3{
+                .rov3{
+                    margin: 0;
+                    .col3{
+                        padding: 70px 80px;
+                        img{
+                            width: 100px;
+                        }
+                        .col3p{
+                            font-size: 10px;
+                            line-height: 19px;
+                        }
+                    }
+                    .col3_4{
+                        gap: 14px;
+                        .col3btn1{
+                            font-size: 10px;
+                            line-height: 15px;
+                            padding: 16px 19px;
+                            border-radius: 11px;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media (min-width: 992.1px) and (max-width: 1200px) {
+    .section-muhammadimron-1{
+        background: #121212;
+        .cont-fld{
+            .rov{
+                .col6_1{
+                    padding: 80px 55px 120px 96px;
+                    .col6-p{
+                        width: 100%;
+                        font-size: 35px;
+                        line-height: 40px;
+                    }
+                    .col6-p2{
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                    .col6_1btn{
+                        padding: 19px 23px;
+                        border-radius: 14px;
+                        font-size: 15px;
+                        line-height: 17px;
+                    }
+                }
+                .col6_2{
+                    position: relative;
+                    img{
+                        position: absolute;
+                        left: -5px;
+                        top: -45px;
+                        width: 401px;
+                    }
+                }
+            }
+        }
+        }
+        .section-muhammadimron_2{
+            width: 100%;
+            .cont3{
+                .rov3{
+                    margin: 0;
+                    .col3{
+                        padding: 90px 100px;
+                        img{
+                            width: 110px;
+                        }
+                        .col3p{
+                            font-size: 12px;
+                            line-height: 21px;
+                        }
+                    }
+                    .col3_4{
+                        gap: 16px;
+                        .col3btn1{
+                            font-size: 12px;
+                            line-height: 17px;
+                            padding: 18px 21px;
+                            border-radius: 13px;
+                        }
+                    }
+                }
+            }
+        }
+}
+@media (min-width: 1200.1px) {
+    .section-muhammadimron-1{
+        background: #121212;
+        .cont-fld{
+            .rov{
+                .col6_1{
+                    padding: 80px 50px 170px 96px;
+                    .col6-p{
+                        width: 100%;
+                        font-size: 35px;
+                        line-height: 40px;
+                    }
+                    .col6-p2{
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                    .col6_1btn{
+                        padding: 19px 23px;
+                        border-radius: 14px;
+                        font-size: 15px;
+                        line-height: 17px;
+                    }
+                }
+                .col6_2{
+                    position: relative;
+                    img{
+                        position: absolute;
+                        left: 50px;
+                        top: -50px;
+                        width: 501px;
+                    }
+                }
+            }
+        }
+        }
+}
